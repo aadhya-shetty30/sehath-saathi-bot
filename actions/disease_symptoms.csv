@@ -1,0 +1,8 @@
+prognosis,nausea,headache,high_fever,chills,body_aches,joint_pain,sweating,abdominal_pain,vomiting,cough,fatigue
+Dengue,1,1,1,1,1,1,0,0,0,0,1
+Malaria,0,1,1,1,1,0,1,0,0,0,1
+Migraine,0,1,0,0,0,0,0,0,0,0,1
+Typhus,1,1,1,0,1,0,1,1,1,0,1
+Influenza,1,1,1,1,1,0,0,0,0,1,1
+Food_Poisoning,1,0,0,0,0,0,0,1,1,0,1
+Heat_Stroke,0,1,0,0,1,0,0,0,0,0,1

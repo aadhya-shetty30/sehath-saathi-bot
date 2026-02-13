@@ -1,0 +1,34 @@
+version: "3.1"
+
+rules:
+  # Greeting rule
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  # Goodbye rule
+  - rule: Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Rule: Ask for symptoms when user provides symptoms
+  - rule: Handle user symptoms
+    steps:
+      - intent: provide_symptoms
+      - action: action_predict_disease
+
+  # Rule: Continue asking symptoms if multiple diseases possible
+  - rule: Ask more symptoms
+    condition:
+      - slot_was_set:
+          - remaining_symptoms_to_ask
+    steps:
+      - action: action_predict_disease
+
+  # Rule: Provide disease info if user asks
+  - rule: Provide disease information
+    steps:
+      - intent: ask_disease_info
+      - action: action_get_disease_info

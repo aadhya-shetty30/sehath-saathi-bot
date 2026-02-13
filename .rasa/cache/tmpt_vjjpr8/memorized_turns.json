@@ -1,0 +1,12 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fklmcmlicGp+Zl5ZfWxsLADFWH/U=": "action_disease_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fklmcmlicGp+Zl5ZfS5xxKFqIMDQWADUBQJM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjtEJgDAMBVfJAE7QVUSCSJCCTUuSClKyu4X6X/DvHRzHW5sv0IrQjfthMXOANgbynijAB1dUI+5uVZLuRO5oAU4hMp80qhkJDvVfYfJCqGQx1CcVy0ndtxfXmFLb": "validate_symptom_form",
+    "eJydjkEKQjEMRK/SA3iCXkUkFB2l0DYlzS9I+Xc3Wl1qwV0G3rzMcewHN6qgUzhr5OLdmAeVkOHdO6TYFMXYrUGMicWiencTQPeFY1OF0ET/MyxWCCqLUrvnqpzby/asdFBirkZOTQ8pXoLiQ9KVJRv84/O3ymrB6QGvL4WL": "action_predict_disease",
+    "eJy1jlEKAjEMRK/SA3iCXkUkFB2l0DYlzRak7N2NVj91RfAvA29eZj/WnRtV0CkcNXLxbsyDSsjw7hlSbIpi7NIgxsRiUb27CKDrhmNRhdBEfzNsrBBUFqV2zVU5t4ftXumgxFyNnJoeUjwFxYukM0s2+MPnd5UvFvzBergBJ6OnOA==": "action_listen"
+  }
+}

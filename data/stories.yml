@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+  - story: greet and provide symptoms
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: provide_symptoms
+      - action: action_predict_disease
+
+  - story: provide additional symptoms until disease identified
+    steps:
+      - intent: provide_symptoms
+      - action: action_predict_disease
+      - slot_was_set:
+          - possible_diseases: # multiple possible diseases
+      - intent: affirm
+      - action: action_predict_disease
+
+  - story: get disease info
+    steps:
+      - intent: ask_disease_info
+      - action: action_get_disease_info
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

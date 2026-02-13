@@ -1,0 +1,6 @@
+{
+  "rule_only_slots": [
+    "remaining_symptoms_to_ask"
+  ],
+  "rule_only_loops": []
+}

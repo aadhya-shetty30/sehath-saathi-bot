@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - take care
+    - talk later
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yup
+    - sure
+    - of course
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - never
+    - I don't think so
+
+- intent: provide_symptoms
+  examples: |
+    - I have fever, headache
+    - I am feeling nausea and fatigue
+    - headache and vomiting
+    - I have high fever, chills, and body aches
+    - suffering from joint pain and cough
+    - nausea, abdominal pain, and vomiting
+    - I feel dizziness and fatigue
+
+- intent: ask_disease_info
+  examples: |
+    - tell me about dengue
+    - give me details of malaria
+    - what is migraine
+    - info about typhus
+    - explain influenza
+    - disease details of food poisoning

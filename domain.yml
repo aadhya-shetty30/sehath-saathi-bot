@@ -1,0 +1,47 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - provide_symptoms
+  - ask_disease_info
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you feeling today?"
+  utter_goodbye:
+    - text: "Goodbye! Take care and stay healthy."
+  utter_ask_more_symptoms:
+    - text: "Do you also have any of these symptoms? {remaining_symptoms}"
+
+slots:
+  symptoms:
+    type: list
+    influence_conversation: true
+    initial_value: []
+    mappings:
+      - type: from_text
+
+  predicted_disease:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+
+  possible_diseases:
+    type: list
+    influence_conversation: true
+    initial_value: []
+    mappings:
+      - type: from_text
+
+  remaining_symptoms_to_ask:
+    type: list
+    influence_conversation: true
+    initial_value: []
+    mappings:
+      - type: from_text
+
+actions:
+  - action_predict_disease
+  - action_get_disease_info

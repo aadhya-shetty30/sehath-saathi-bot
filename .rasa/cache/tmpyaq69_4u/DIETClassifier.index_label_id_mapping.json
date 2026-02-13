@@ -1,0 +1,9 @@
+{
+  "0": "affirm",
+  "1": "ask_disease_info",
+  "2": "deny",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "nlu_fallback",
+  "6": "provide_symptoms"
+}
